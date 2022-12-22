@@ -5,6 +5,7 @@ import Intro from "./components/intro/Intro.jsx";
 import ProductList from "./components/productList/ProductList.jsx";
 import Toggle from "./components/toggle/Toggle.jsx";
 import { ThemeContext } from "./context.js";
+import Nav from "./components/nav/Nav.jsx";
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -13,6 +14,7 @@ function App() {
     <div style={{backgroundColor: darkMode ? "black" : "wheat"
     , color: darkMode ? "white": "black"}}>
       <Toggle />
+      <Nav />
       <Intro />
       <About />
       <ProductList />
