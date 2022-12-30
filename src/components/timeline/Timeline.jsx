@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { FaGraduationCap } from "react-icons/fa";
-import { FiBriefcase } from "react-icons/fi";
-import { BsCalendar2Check } from "react-icons/bs";
+import React, {useState} from "react";
+import {FaGraduationCap} from "react-icons/fa";
+import {FiBriefcase} from "react-icons/fi";
+import {BsCalendar2Check} from "react-icons/bs";
 import "./Timeline.css";
 
 const Qualification = () => {
@@ -24,7 +24,7 @@ const Qualification = () => {
                         }`}
                         onClick={handleToggle}
                     >
-                        <FaGraduationCap className="qualification__icon" />
+                        <FaGraduationCap className="qualification__icon"/>
                         <span className="tab__font"> Education</span>
                     </div>
 
@@ -34,7 +34,7 @@ const Qualification = () => {
                         }`}
                         onClick={handleToggle}
                     >
-                        <FiBriefcase className="qualification__icon" />
+                        <FiBriefcase className="qualification__icon"/>
                         <span className="tab__font"> Work</span>
                     </div>
                 </div>
@@ -51,22 +51,26 @@ const Qualification = () => {
                         <div className="qualification__data">
                             <div className="qualification__card">
                                 <h3 className="qualification__title">
-                                    Computer and Information Systems: Data Analytics
+                                    Computer and Information Systems: Emerging Technologies
                                 </h3>
                                 <span className="qualification__subtitle">
                   Douglas College
                 </span>
 
                                 <div className="qualification__calendar">
-                                    <BsCalendar2Check className="calendar__icon" /> &nbsp;
+                                    <BsCalendar2Check className="calendar__icon"/> &nbsp;
                                     2021-2022
                                 </div>
-                                <br />
+                                <br/>
                                 <p>
-                                    &#9900; 4.05 GPA
-                                    <br />
-                                    &#9900; International Returning Student Scholarship x 2<br />
-                                    &#9900; Dean's list x 3<br />
+                                    <ul>
+                                        <li>Private tutor by Varsity Tutors for programming courses in Java, Python,
+                                            Linux, C, C++, SQL, MS Access
+                                        </li>
+                                        <li>Guided 100+ students in computer languages, data structures and algorithms
+                                        </li>
+                                        <li>Peer Tutor at the Learning Centre and Student Teaching Assistant</li>
+                                    </ul>
                                 </p>
                             </div>
 
@@ -85,25 +89,26 @@ const Qualification = () => {
                             </div>
                             <div className="qualification__card">
                                 <h3 className="qualification__title">
-                                    Instrumentation & Control engineering
+                                    Electronics & Communication Engineering
                                 </h3>
                                 <span className="qualification__subtitle">
-                  Gujarat Tech. University
+                  Guru Nanak Dev University
                 </span>
                                 <div className="qualification__calendar">
-                                    <BsCalendar2Check className="calendar__icon" /> &nbsp;
-                                    2016-2020
+                                    <BsCalendar2Check className="calendar__icon"/> &nbsp;
+                                    2013-2017
                                 </div>
-                                <br />
+                                <br/>
                                 <p>
-                                    &#9900; 9.03/10 GPA
-                                    <br />
-                                    &#9900; Top 1% of Students based on overall Rank
-                                    <br />
-                                    &#9900; Member of Youth On the Move
-                                    <br />
-                                    &#9900; Merit Based Scholarship
-                                    <br />
+                                    <ul>
+                                        <li>Specialization in Digital Communication</li>
+                                        <li>Headed departmental organization named Electronics Student Forum as Convener
+                                            with more than 50 members
+                                        </li>
+                                        <li>Organised and handled Blood Connect NGO Amritsar City activities as City
+                                            President
+                                        </li>
+                                    </ul>
                                 </p>
                             </div>
                         </div>
@@ -118,27 +123,33 @@ const Qualification = () => {
                         {/* first work experience */}
                         <div className="qualification__data">
                             <div className="qualification__card">
-                                <h3 className="qualification__title">Computer Science Tutor</h3>
+                                <h3 className="qualification__title">DevOps Engineer</h3>
                                 <span className="qualification__subtitle">
-                  Douglas College
+                  Capgemini
                 </span>
                                 <div className="qualification__calendar">
-                                    <BsCalendar2Check className="calendar__icon" />
-                                    &nbsp; 2021-2022
+                                    <BsCalendar2Check className="calendar__icon"/>
+                                    &nbsp; July 2020 - Dec 2021
                                 </div>
-                                <br />
+                                <br/>
                                 <p>
-                                    &#9900; Trained and Mentored 250+ Students.
-                                    <br />
-                                    &#9900; One of the most booked tutor for Computer Science
-                                    Courses.
-                                    <br />
-                                    &#9900; Supported students to build core foundation in Java,
-                                    C#, JavaScript, and SQL.
-                                    <br />
-                                    &#9900; College Reading & Learning Association 2 certified
-                                    advanced tutor.
-                                    <br />
+                                    <ul>
+                                        <li>Designed dashboards in Kibana & AppDynamics which helped reduced the BAU
+                                            activity by 30% and MTTR by 84%.
+                                        </li>
+                                        <li>Implemented automated reports using Kibana advanced watcher saving 2 hours
+                                            of BAU each day
+                                        </li>
+                                        <li>Developed bash scripts for detailed incident analysis reporting improving
+                                            BRR by 40%
+                                        </li>
+                                        <li>Proposed & implemented automation solutions to clients using Python leading
+                                            to 15% reduction in delivery time
+                                        </li>
+                                        <li>Built and deployed Ansible Playbooks for change validations reducing the
+                                            deployment time by 20%
+                                        </li>
+                                    </ul>
                                 </p>
                             </div>
 
@@ -147,65 +158,52 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                         </div>
+
 
                         {/* second work experience */}
                         <div className="qualification__data">
                             <div></div>
                             <div>
                                 <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
+                                {/*<span className="qualification__line"></span>*/}
                             </div>
                             <div className="qualification__card">
-                                <h3 className="qualification__title">Computer Lab Assistant</h3>
+                                <h3 className="qualification__title">Production Support Specialist</h3>
                                 <span className="qualification__subtitle">
-                  Douglas College
+                  Capgemini
                 </span>
                                 <div className="qualification__calendar">
-                                    <BsCalendar2Check className="calendar__icon" /> &nbsp;
+                                    <BsCalendar2Check className="calendar__icon"/> &nbsp;
                                     2021-2022
                                 </div>
-                                <br />
+                                <br/>
                                 <p>
-                                    &#9900; Assisted 6 instructors in the span of 5 semesters to
-                                    facilitate Lab sessions.
-                                    <br />
-                                    &#9900; Hosted Drop-in Open Labs to help students with their
-                                    coursework.
-                                    <br />
-                                    &#9900; Mentored students to develop study skills, understand
-                                    course material, and meet their learning goals.
-                                    <br />
+                                    <ul>
+                                        <li>Provided 24x7 support to clients for their critical applications</li>
+                                        <li>Performed root cause analysis and provided solutions to clients</li>
+                                        <li>Maintained 99.5% availability SLA for all the Apple, Samsung and Google
+                                            E-Wallets
+                                        </li>
+                                        <li>Drove reduction & implementation time for change by 30% by streamlining SOPs
+                                            and standardizing methodologies
+                                        </li>
+                                        <li>Monitored application health in real time using AppDynamics, Kibana, Splunk
+                                            and Java application logs
+                                        </li>
+                                        <li>Effectively communicated with the client to understand business requirements
+                                            and address customer needs
+                                        </li>
+                                        <li>Created and executed SQL, bash and python scripts for client reports,
+                                            incident analysis and application changes.
+                                        </li>
+                                        <li>Spearheaded knowledge sharing sessions on applications, monitoring tools and
+                                            Linux
+                                        </li>
+                                        <li>Collaborated with various team for implementing successful changes and
+                                            resolve outages
+                                        </li>
+                                    </ul>
                                 </p>
-                            </div>
-                        </div>
-
-                        {/* third qualification */}
-                        <div className="qualification__data">
-                            <div className="qualification__card">
-                                <h3 className="qualification__title">Automation Specialist</h3>
-                                <span className="qualification__subtitle">
-                  Advaitya Dye Chem, India
-                </span>
-                                <div className="qualification__calendar">
-                                    <BsCalendar2Check className="calendar__icon" /> &nbsp;
-                                    2019-2020
-                                </div>
-                                <br />
-                                <p>
-                                    &#9900; Developed comprehensive PLC and SCADA programs for
-                                    distributed control systems.
-                                    <br />
-                                    &#9900; Performed continuous improvements to meet the changing
-                                    production requirements.
-                                    <br />
-                                    &#9900; Worked on PLC, SCADA, HMI, and Control Panels.
-                                    <br />
-                                </p>
-                            </div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                {/* <span className="qualification__line"></span> */}
                             </div>
                         </div>
                     </div>
