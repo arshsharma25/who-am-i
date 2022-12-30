@@ -28,8 +28,27 @@
     font-weight: 300 ;
 }
 
+.i-icon {
+    font-size: 50px;
+    color: #f5f5f5;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.i-button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: #f5f5f5;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
 .i-name {
-    font-size: 60px;
+    font-size: 30px;
 }
 
 .i-title {
