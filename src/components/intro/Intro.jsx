@@ -2,6 +2,8 @@ import "./Intro.css";
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {FaTwitterSquare} from "react-icons/fa";
 import {SiLeetcode} from "react-icons/si";
+import  CV from  "../../assets/Arsh_Sharma_Resume.pdf";
+import Me from  "../../img/me.png";
 
 
 
@@ -76,21 +78,29 @@ const Intro = () => {
                         </p>
                     </div>
                     <div className="i-icon-wrapper">
-                        <FaLinkedin className="i-icon"/>
-                        <FaTwitterSquare className="i-icon"/>
-                        <FaGithub className="i-icon"/>
-                        <SiLeetcode className="i-icon"/>
+                        <a href="https://www.linkedin.com/in/arshsharma" target="_blank" rel="noopener">
+                            <FaLinkedin className="i-icon"/>
+                        </a>
+                        <a href="https://twitter.com/ramblingSage25" target="_blank" rel="noopener">
+                            <FaTwitterSquare className="i-icon"/>
+                        </a>
+                        <a href="https://github.com/arshsharma25" target="_blank" rel="noopener">
+                            <FaGithub className="i-icon"/>
+                        </a>
+                        <a href="https://leetcode.com/ramblingThinker/" target="_blank" rel="noopener">
+                            <SiLeetcode className="i-icon"/>
+                        </a>
                     </div>
                     <div className="i-button-wrapper">
-                        <button className={"i-button"}>Download CV</button>
-                        <button className={"i-button"}>Contact Me</button>
+                        <a href={CV} download className={"i-button"}>Download CV</a>
+                        <a href={"mailto:arshsharma96@yahoo.com"} className={"i-button"}>Contact Me</a>
                     </div>
                 </div>
 
             </div>
             <div className="i-right">
-                {/*<div className="i-bg"></div>*/}
-                {/*<img src={ Me } alt="" className="i-img" />*/}
+                <div className="i-bg"></div>
+                <img src={ Me } alt="" className="i-img" />
             </div>
         </div>
     )
