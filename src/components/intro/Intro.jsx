@@ -66,28 +66,28 @@ const Intro = () => {
                             <div className="i-title-item">TECH ENTHUSIAST</div>
                         </div>
                     </div>
-                    <div className="i-desc">
-                        <p>
-                            I am a recent graduate of Douglas College's Post Baccalaureate Diploma in Computing &
-                            Information Systems program, with a specialization in Emerging Technologies and web
-                            technologies.
-                            I have a strong foundation in programming languages such as Python, Java, and SQL, as well
-                            as experience with frameworks like Flask and React.
-                            I am proficient in DevOps tools like Git, GitHub, Docker, and Jenkins, and have a working
-                            knowledge of platforms like Linux and MacOS.
-                        </p>
-                    </div>
+                    {/*<div className="i-desc">*/}
+                    {/*    <p>*/}
+                    {/*        I am a recent graduate of Douglas College's Post Baccalaureate Diploma in Computing &*/}
+                    {/*        Information Systems program, with a specialization in Emerging Technologies and web*/}
+                    {/*        technologies.*/}
+                    {/*        I have a strong foundation in programming languages such as Python, Java, and SQL, as well*/}
+                    {/*        as experience with frameworks like Flask and React.*/}
+                    {/*        I am proficient in DevOps tools like Git, GitHub, Docker, and Jenkins, and have a working*/}
+                    {/*        knowledge of platforms like Linux and MacOS.*/}
+                    {/*    </p>*/}
+                    {/*</div>*/}
                     <div className="i-icon-wrapper">
-                        <a href="https://www.linkedin.com/in/arshsharma" target="_blank" rel="noopener">
+                        <a href="https://www.linkedin.com/in/arshsharma" target="_blank" rel="noopener, noreferrer">
                             <FaLinkedin className="i-icon"/>
                         </a>
-                        <a href="https://twitter.com/ramblingSage25" target="_blank" rel="noopener">
+                        <a href="https://twitter.com/ramblingSage25" target="_blank" rel="noopener, noreferrer">
                             <FaTwitterSquare className="i-icon"/>
                         </a>
-                        <a href="https://github.com/arshsharma25" target="_blank" rel="noopener">
+                        <a href="https://github.com/arshsharma25" target="_blank" rel="noopener, noreferrer">
                             <FaGithub className="i-icon"/>
                         </a>
-                        <a href="https://leetcode.com/ramblingThinker/" target="_blank" rel="noopener">
+                        <a href="https://leetcode.com/ramblingThinker/" target="_blank" rel="noopener, noreferrer">
                             <SiLeetcode className="i-icon"/>
                         </a>
                     </div>
